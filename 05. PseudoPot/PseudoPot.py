@@ -110,12 +110,6 @@ crystal = {"0": "Si", "1": "Ge", "2": "Sn", "3": "GeAs", "4": "ZnS", "5": "CdTe"
 plt.figure(frameon=False)
 
 colors = ['ko-', 'co-', 'go-', 'yo-', 'ro-', 'mo-', 'ko-', 'bo-']
-'''
-fermi = energy[10, 1]   #Fermi energy, given by the second band at 'Gamma'.
-Santiago toma el maximo de la 4ta banda?
-      max         {ε4 (k)} = 0
-∀k∈{L→Γ→X→U|K→L}
-'''
 
 for index_k in range(0, int(len(wave_vector_k))):
     for eigen_index in range(0, 8):
