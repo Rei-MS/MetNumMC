@@ -1,1 +1,1 @@
-Solution to theSchrödinger equation for periodic solids. Pseudopotential method.
+Solution to the Schrödinger equation for periodic solids. Pseudopotential method.
